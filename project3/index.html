@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>Ovesh Khatri</h1>
+            <h2>Web Developer</h2>
+            <img src="./profilepicture.webp" alt="Profile Picture">
+            <p>Creating beautiful and functional web experiences</p>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate web developer with a focus on creating responsive, user-friendly websites and applications. I enjoy solving complex problems and turning ideas into reality through code.</p>
+            <p>When I'm not coding, you can find me hiking, reading about new technologies, or experimenting with photography.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3 & Sass</li>
+                <li>JavaScript & TypeScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>SQL & NoSQL Databases</li>
+                <li>Git & GitHub</li>
+            </ul>
+            
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+                <li>Team Collaboration</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <article>
+                <h3>E-commerce Website</h3>
+                <img src="./e-commerce.webp" alt="E-commerce Project">
+                <p>A fully functional e-commerce platform built with React and Node.js. Features include user authentication, product catalog, shopping cart, and payment processing.</p>
+                <ul>
+                    <li>Technologies: React, Node.js, MongoDB, Stripe API</li>
+                    <li><a href="#">View Project</a></li>
+                    <li><a href="#">Source Code</a></li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Weather Dashboard</h3>
+                <img src="./weatherapp.webp" alt="Weather App">
+                <p>A weather application that provides real-time weather data and forecasts based on user location or search queries.</p>
+                <ul>
+                    <li>Technologies: JavaScript, OpenWeather API, HTML5, CSS3</li>
+                    <li><a href="#">View Project</a></li>
+                    <li><a href="#">Source Code</a></li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Task Management App</h3>
+                <img src="./taskapp.webp" alt="Task Management App">
+                <p>A productivity application that helps users organize and prioritize tasks, set deadlines, and track progress.</p>
+                <ul>
+                    <li>Technologies: React, Firebase, Redux</li>
+                    <li><a href="#">View Project</a></li>
+                    <li><a href="#">Source Code</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="experience">
+            <h2>Professional Experience</h2>
+            
+            <article>
+                <h3>Senior Front-End Developer</h3>
+                <h4>Tech Solutions Inc.</h4>
+                <p>January 2022 - Present</p>
+                <ul>
+                    <li>Developed and maintained responsive web applications for clients across various industries</li>
+                    <li>Collaborated with UX/UI designers to implement visually appealing and user-friendly interfaces</li>
+                    <li>Mentored junior developers and conducted code reviews</li>
+                    <li>Optimized website performance and improved loading times by 40%</li>
+                </ul>
+            </article>
+            
+            <article>
+                <h3>Web Developer</h3>
+                <h4>Digital Creations Co.</h4>
+                <p>March 2019 - December 2021</p>
+                <ul>
+                    <li>Built interactive websites for small to medium-sized businesses</li>
+                    <li>Implemented responsive designs that work across all devices</li>
+                    <li>Integrated CMS solutions for client content management</li>
+                    <li>Worked directly with clients to gather requirements and provide technical solutions</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            
+            <article>
+                <h3>Bachelor of Science in Computer Science</h3>
+                <h4>University of Technology</h4>
+                <p>2015 - 2019</p>
+                <p>Relevant coursework: Web Development, Data Structures, Algorithms, Database Systems</p>
+            </article>
+            
+            <article>
+                <h3>Full-Stack Web Development Bootcamp</h3>
+                <h4>Code Academy</h4>
+                <p>2019</p>
+                <p>Intensive 12-week program focused on modern web development technologies and practices</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+            
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div>
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject">
+                </div>
+                
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit">Send Message</button>
+            </form>
+            
+            <div class="contact-links">
+                <h3>Connect With Me</h3>
+                <ul>
+                    <li><a href="#">Email</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ovesh Khatri. All rights reserved.</p>
+    </footer>
+</body>
+</html>
